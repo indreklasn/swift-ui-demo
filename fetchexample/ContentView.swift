@@ -8,31 +8,48 @@
 
 import SwiftUI
 
-func greet(name: String) -> String {
-	return "Greetings from \(name)"
-}
+
 
 struct ContentView: View {
 	var body: some View {
 		VStack {
-			Text(greet(name: "Indrek Lasn"))
-				.font(.largeTitle)
-				.fontWeight(.ultraLight)
-				.padding()
-
 			VStack {
 				HStack {
 					Image("cat")
 						.resizable()
 						.aspectRatio(contentMode: .fit)
-					Image("cat")
+				}
+				
+				HStack {
+					Text("Cats say").font(.title).bold()
+					Spacer()
+					Text("Meow").font(.subheadline)
+				}.padding()
+				
+				HStack {
+					Image("cat1")
+						.resizable()
+						.aspectRatio(contentMode: .fit)
+					Image("cat2")
 						.resizable()
 						.aspectRatio(contentMode: .fit)
 				}
+				
+				HStack {
+					Image("cat3")
+						.resizable()
+						.aspectRatio(contentMode: .fit)
+				}
+				
+				Spacer()
+				VStack {
+					Text("Built with Swift UI")
+				}
+				
 			}
-
-		}
-
+			Spacer()
+		}.edgesIgnoringSafeArea(.top)
+		
 	}
 }
 
