@@ -15,6 +15,7 @@
 		0848BA9E23B63A4800D3A201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0848BA9C23B63A4800D3A201 /* LaunchScreen.storyboard */; };
 		0848BAA923B63A4900D3A201 /* fetchexampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848BAA823B63A4900D3A201 /* fetchexampleTests.swift */; };
 		0848BAB423B63A4900D3A201 /* fetchexampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848BAB323B63A4900D3A201 /* fetchexampleUITests.swift */; };
+		0848BAC523B7923700D3A201 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0848BAC423B7923700D3A201 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0848BAAF23B63A4900D3A201 /* fetchexampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fetchexampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0848BAB323B63A4900D3A201 /* fetchexampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchexampleUITests.swift; sourceTree = "<group>"; };
 		0848BAB523B63A4900D3A201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0848BAC423B7923700D3A201 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0848BA8523B63A4600D3A201 = {
 			isa = PBXGroup;
 			children = (
+				0848BAC423B7923700D3A201 /* README.md */,
 				0848BA9023B63A4600D3A201 /* fetchexample */,
 				0848BAA723B63A4900D3A201 /* fetchexampleTests */,
 				0848BAB223B63A4900D3A201 /* fetchexampleUITests */,
@@ -243,6 +246,7 @@
 			files = (
 				0848BA9E23B63A4800D3A201 /* LaunchScreen.storyboard in Resources */,
 				0848BA9B23B63A4800D3A201 /* Preview Assets.xcassets in Resources */,
+				0848BAC523B7923700D3A201 /* README.md in Resources */,
 				0848BA9823B63A4800D3A201 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
